@@ -1,7 +1,8 @@
+import './Skills.css'
 export default function Skills(){
     return(
-        <div>
-            <h2>Skills</h2>
+        <div id='Skill-container'>
+            <h2 id='Skills'>Skills</h2>
             <div>
                 <h4>Languages</h4>
                 <ul>

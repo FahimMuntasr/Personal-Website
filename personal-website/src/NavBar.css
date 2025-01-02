@@ -1,36 +1,63 @@
 #NavBar-Container{
-    background-color: rgb(64, 33, 33);
+    /*Light Mode*/
+    /* background-color: #f1faee; */
+    
+    /*Dark Mode*/
+    background-color: hsl(215, 50%, 23%);
+    width: 100vw;
+    position: fixed;
+    padding: 10px;
+    margin: 0px;
     align-items: center;
     display: flex;
     justify-content: space-between;
 }
 #NavBar-Name{
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
     align-items: center;
     display: flex;
 }
 #NavBar-Name-h1{
-    background-color: rgb(185, 142, 225);
+    /*background-color: rgb(185, 142, 225);*/
+    color: hsl(174, 61%, 94%);
+    font-size: 35px;
     margin: 10px;
 }
 #NavBar-Items-Container{
-    background-color: rgb(37, 72, 72);
+    /*background-color: rgb(37, 72, 72);*/
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 #NavBar-Items-List{
-    background-color: rgb(17, 79, 42);
+    /*background-color: rgb(17, 79, 42);*/
     list-style: none;
     display: flex;
+    color:hsl(174, 61%, 94%);
+    font-weight: 600;
+    font-size: 20px;
     justify-content: space-between;
-    padding: 0px;
 }
 .NavBar-Items{
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     padding-right: 0px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 #NavBar-DarkMode-Button{
-    background-color:rgb(49, 210, 100);
-    margin: 10px;
+    /*background-color:rgb(49, 210, 100);*/
+    border-radius: 50%;
+    border:none;
+    /*Dark Mode*/
+    background-color: hsl(215, 50%, 23%);
+    height: 50px;
+    width: 50px;
+    margin: 0px 70px;
+}
+#NavBar-DarkMode-Button:hover{
+    /*Light Mode*/
+    
+    /*Dark Mode*/
+    background-color: hsla(215, 45%, 16%, 0.563);
+
+    transition: background-color .3s ease-in;
 }

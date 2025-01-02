@@ -1,6 +1,13 @@
 body{
-    background-color: rgb(54, 61, 81);
+    /*Dark Mode*/
+    background:linear-gradient(to top,hsl(170, 28%, 37%),hsl(218, 27%, 26%));
+    /*Light Mode*/
+    /* background:linear-gradient(to top,hsl(168, 23%, 61%),hsl(174, 61%, 94%)); */
+    padding: 0px;
+    margin:0px;
+    
+    font-family: monospace
 }
 #root{
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
