@@ -7,6 +7,7 @@ import Education from "./Education"
 import Projects from "./Projects"
 import Contact from "./Contact"
 import Footer from "./Footer"
+import Archive from "./Archive"
 const root = createRoot(document.getElementById("root"))
 
 function Page(){
@@ -18,6 +19,7 @@ function Page(){
             <Skills/>
             <Education/>
             <Projects/>
+            <Archive/>
             <Contact/>
             <Footer/>
         </>

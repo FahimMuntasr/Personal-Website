@@ -1,5 +1,8 @@
 export default function Contact(){
     return(
-        <p>Contact</p>
+        <div>
+            <h2>Contact</h2>
+            <p>byefahimmuntasir@gmail.com</p>
+        </div>
     )
 }

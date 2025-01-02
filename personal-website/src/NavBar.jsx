@@ -9,6 +9,7 @@ export default function NavBar(){
                 <li>Projects</li>
                 <li>Contact</li>
             </ul>
+            <button>Dark Mode</button>
         </>
     )
 }
