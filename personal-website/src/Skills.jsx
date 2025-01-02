@@ -25,7 +25,7 @@ export default function Skills(){
                 <ul>
                     <li>Git</li>
                     <li>LaTeX</li>
-                    <li>VS Code</li>
+                    <li>Vim</li>
                     <li>Blender</li>
                 </ul>
             </div>
