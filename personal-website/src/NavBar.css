@@ -1,0 +1,36 @@
+#NavBar-Container{
+    background-color: rgb(64, 33, 33);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+#NavBar-Name{
+    background-color: blueviolet;
+    align-items: center;
+    display: flex;
+}
+#NavBar-Name-h1{
+    background-color: rgb(185, 142, 225);
+    margin: 10px;
+}
+#NavBar-Items-Container{
+    background-color: rgb(37, 72, 72);
+    display: flex;
+    align-items: center;
+}
+#NavBar-Items-List{
+    background-color: rgb(17, 79, 42);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+.NavBar-Items{
+    background-color: aquamarine;
+    padding-right: 0px;
+    margin-left: 10px;
+}
+#NavBar-DarkMode-Button{
+    background-color:rgb(49, 210, 100);
+    margin: 10px;
+}

@@ -1,5 +1,8 @@
 import {createRoot} from "react-dom/client"
+import "./main.css"
+
 import NavBar from "./NavBar"
+
 import AboutMe from "./AboutMe"
 import NameAnim from "./NameAnim"
 import Skills from "./Skills"
