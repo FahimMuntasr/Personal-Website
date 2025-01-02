@@ -1,21 +1,22 @@
+import './NameAnim.css'
 export default function NameAnim(){
     return(
-        <div>
-            <div>
-                <h1>Fahim Muntasir</h1>
+        <div id="NameAnim-container">
+            <div >
+                <h1 id="NameAnim-name">Fahim Muntasir</h1>
             </div>
             <div>
-                <h3>Computer Science @ North South University '28</h3>
+                <h3 id='NameAnim-degree'>Computer Science @ North South University '28</h3>
             </div>
             <div>
-                <ul>
-                    <li>LinkedIn</li>
-                    <li>Github</li>
-                    <li>Mail</li>
+                <ul id='NameAnim-links'>
+                    <li className='NameAnim-link-items'>LinkedIn</li>
+                    <li className='NameAnim-link-items'>Github</li>
+                    <li className='NameAnim-link-items'>Mail</li>
                 </ul>
             </div>
             <div>
-                <button>Resume</button>    
+                <button id='Resume-button'>Resume</button>    
             </div>
         </div>
     )
