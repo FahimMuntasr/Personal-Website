@@ -1,5 +1,4 @@
 #AboutMe-container{
-    background-color: rgb(37, 84, 43);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,15 +6,12 @@
 }
 #AboutMe-subcontainer{
     display: flex;
-    background-color: azure;
     flex-direction: row;
     padding: 10px;
 }
 #AboutMe-Image{
     margin: 40px;
-    background-color: aqua;
 }
 #AboutMe-Text{
-    background-color: blueviolet;
     margin: auto;
 }

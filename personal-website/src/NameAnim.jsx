@@ -3,10 +3,17 @@ import ContactButtons from './ContactButtons'
 export default function NameAnim(){
     return(
         <div id="NameAnim-container">
-            <h1 id="NameAnim-name">FAHIM MUNTASIR</h1>
+            <div className='container'>
+                <p class="text">FAHIM MUNTASIR.</p>
+            </div>
             <h3 id='NameAnim-degree'>COMPUTER SCIENCE & ENGINEERING @ NORTH SOUTH UNIVERSITY '28</h3>
             <ContactButtons/>
             <button id='Resume-button'>Resume ↗</button>
+            <div className='arrowText'>
+                <p id='arrow1' className='arrows'>V</p>
+                <p id='arrow2' className='arrows'>V</p>
+                <p id='arrow3' className='arrows'>V</p>
+            </div>
         </div>
     )
 }

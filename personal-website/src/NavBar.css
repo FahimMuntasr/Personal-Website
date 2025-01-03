@@ -33,12 +33,17 @@
     color: rgb(230, 249, 247);
     border: none;
     border-radius: 15px;
+    text-decoration: none;
     cursor: pointer;
     font-size: 20px;
     font-family: monospace;
     font-weight: 400;
     margin: 10px;
     padding: 20px;
+    
+}
+#NavBar-Name-button{
+    text-decoration: none;
 }
 .navbar-buttons:hover {
     background-color:hsla(215, 45%, 16%, 0.563) ;

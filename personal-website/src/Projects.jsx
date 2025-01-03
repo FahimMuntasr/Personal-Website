@@ -1,5 +1,7 @@
 export default function Projects(){
     return(
-        <p>Projects</p>
+        <div id="Projects-container">
+            <p>Projects</p>
+        </div>
     )
 }
