@@ -1,7 +1,7 @@
 body{
     /*Dark Mode*/
     background:linear-gradient(to top,hsl(170, 28%, 37%),hsl(218, 27%, 26%));
-    color: hsl(174, 61%, 94%);
+    color: #e6f9f7;
     /*Light Mode*/
     /* background:linear-gradient(to top,hsl(168, 23%, 61%),hsl(174, 61%, 94%)); */
     padding: 0px;
