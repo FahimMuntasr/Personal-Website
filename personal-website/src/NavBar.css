@@ -1,13 +1,15 @@
 #NavBar-Container{
     /*Light Mode*/
     /* background-color: #f1faee; */
-    
     /*Dark Mode*/
     background-color: hsl(215, 50%, 23%);
-    width: 100vw;
+    
+    width: 100%;
+    height: 80px;
     position: fixed;
-    padding: 10px;
-    margin: 0px;
+    top: 0;
+    padding: 10px 0px;
+    z-index: 1000;
     align-items: center;
     display: flex;
     justify-content: space-between;

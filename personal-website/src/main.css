@@ -11,3 +11,6 @@ body{
 #root{
     /*background-color: aqua;*/
 }
+#content{
+    margin-top: 80px;
+}

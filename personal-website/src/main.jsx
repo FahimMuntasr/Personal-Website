@@ -17,14 +17,16 @@ function Page(){
     return(
         <>
             <NavBar/>
-            <NameAnim/>
-            <AboutMe/>
-            <Skills/>
-            <Education/>
-            <Projects/>
-            <Archive/>
-            <Contact/>
-            <Footer/>
+            <div id="content">
+                <NameAnim/>
+                <AboutMe/>
+                <Skills/>
+                <Education/>
+                <Projects/>
+                <Archive/>
+                <Contact/>
+                <Footer/>
+            </div>
         </>
     )
 }
