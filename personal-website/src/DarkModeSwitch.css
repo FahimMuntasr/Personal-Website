@@ -1,0 +1,22 @@
+#NavBar-DarkMode-Button{
+    /*background-color:rgb(49, 210, 100);*/
+    border-radius: 50%;
+    border:none;
+    /*Dark Mode*/
+    background-color: hsl(217, 26%, 24%);
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    margin: 0px 70px;
+}
+#NavBar-DarkMode-Button:hover{
+    background-color: hsla(215, 45%, 16%, 0.563);
+    transition: background-color .3s ease-in;
+}
+#sun-img{
+    padding: 0px;
+    margin: 0px;
+    
+    height: 40px;
+    width: 40px;
+}

@@ -1,20 +1,19 @@
 #NameAnim-container{
-    background-color: rgb(84, 37, 37);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
 }
 #NameAnim-name{
-    background-color: rgb(108, 74, 33);
-    color: rgb(0, 0, 0);
-   
+    font-size: 80px;
+    margin-bottom: 0px;
 }
 #NameAnim-degree{
-    background-color: aquamarine;
+    font-size: 20px;
+    color: hsla(174, 61%, 94%, 0.46);
+    font-weight: 300;
 }
 #NameAnim-links{
-    background-color: bisque;
     list-style: none;
     display: flex;
     flex-direction: row;

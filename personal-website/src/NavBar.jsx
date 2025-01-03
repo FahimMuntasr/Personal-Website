@@ -1,19 +1,16 @@
 import './NavBar.css'
+import DarkModeSwitch from './DarkModeSwitch.jsx'
 export default function NavBar(){
     return(
         <div id="NavBar-Container">
-            <div id="NavBar-Name">
-                <h1 id="NavBar-Name-h1">Fahim Muntasir</h1>
-            </div>
+            <button id="NavBar-Name-button" className='navbar-buttons'>Fahim Muntasir</button>
             <div id="NavBar-Items-Container">
-                <ul id="NavBar-Items-List">
-                    <li class="NavBar-Items">About Me</li>
-                    <li class="NavBar-Items">Skills</li>
-                    <li class="NavBar-Items">Education</li>
-                    <li class="NavBar-Items">Projects</li>
-                    <li class="NavBar-Items">Contact</li>
-                </ul>
-                <button id="NavBar-DarkMode-Button">Dark Mode</button>
+                <button className='navbar-buttons'>About Me</button>
+                <button className='navbar-buttons'>Skills</button>
+                <button className='navbar-buttons'>Education</button>
+                <button className='navbar-buttons'>Projects</button>
+                <button className='navbar-buttons'>Contact</button>
+                <DarkModeSwitch/>
             </div>
         </div>
     )
