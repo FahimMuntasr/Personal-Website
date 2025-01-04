@@ -6,8 +6,8 @@
     top: 0;
     padding: 10px 0px;
     z-index: 1000;
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 #NavBar-Name{
@@ -18,12 +18,28 @@
 #NavBar-Name-button{
     /*background-color: rgb(185, 142, 225);*/
     font-weight: 900;
+    text-decoration: none;
 }
 #NavBar-Items-Container{
     /*background-color: rgb(37, 72, 72);*/
     display: flex;
     align-items: center;
     margin-right: 10px;
+}
+.hamburger-menu{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+    color: rgb(230, 249, 247);
+}
+.hamburger-menu:hover{
+    background-color:hsla(215, 45%, 16%, 0.563) ;
+    transition: background-color .3s ease-in;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 20px;
 }
 .navbar-buttons {
     display: flex;
@@ -48,4 +64,28 @@
 .navbar-buttons:hover {
     background-color:hsla(215, 45%, 16%, 0.563) ;
     transition: background-color .3s ease-in;
+}
+@media  (max-width: 1130px){
+    .hamburger-menu{
+        display: block;
+    }
+    #NavBar-Items-Container {
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        background-color: hsl(217, 26%, 24%);
+        width: 200px;
+        transform: translateX(100%);
+        visibility: hidden;
+    }
+
+    #NavBar-Items-Container.open {
+        transform: translateX(0);
+        visibility: visible;
+    }
+
+    .navbar-buttons {
+        margin: 5px 0;
+    }
 }

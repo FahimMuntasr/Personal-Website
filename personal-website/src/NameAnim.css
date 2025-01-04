@@ -64,6 +64,7 @@
 #Resume-button:hover{
     background-color: hsla(174, 61%, 94%, 0.189);
     transition: background-color 0.3s ease-in;
+    cursor: pointer;
 }
 .arrows{
     margin: 0px;
@@ -78,6 +79,9 @@
     color: #e6f9f7;
     margin: 0px;
     padding: 0;
+}
+.arrowText:hover{
+    cursor: default;
 }
 /* .arrowText:nth-child(1){
     animation-delay: 0s;
