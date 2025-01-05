@@ -14,6 +14,7 @@
     max-width: 1200px;
     width: 90vw;
     padding: 20px;
+    margin-top: 30px;
 }
 #AboutMe-Header{
     font-size: 4em;
@@ -28,6 +29,7 @@
     margin-right: 50px;
     margin-right: 30px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 #AboutMe-Text{
     margin: auto;
@@ -65,13 +67,13 @@
     #AboutMe-Header{
         font-size: 30px;
         margin-bottom: 2px;
-        margin-top: 10px;
+        margin-top: 30px;
     }
     #AboutMe-Image{
         margin-right: 0;
     }
     #AboutMe-Facts{
-        font-size: 16px;
+        font-size: 1.2em;
         line-height: 1.4;
     }
     .Fact>p{

@@ -7,7 +7,7 @@ export default function NavBar(){
         setMenuOpen(!menuOpen);
     }
     return(
-        <div id="NavBar-Container">
+        <div id="NavBar-Container" >
             <a href="#" id="NavBar-Name-button" className='navbar-buttons'>FAHIM MUNTASIR</a>
             <div className='hamburger-menu' onClick={toggleMenu}>☰</div>
             <div id="NavBar-Items-Container" className={menuOpen ? "open" : ""}>

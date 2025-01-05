@@ -8,8 +8,8 @@ export default function NameAnim(){
             </div>
             <h3 id='NameAnim-degree'>COMPUTER SCIENCE & ENGINEERING @ NORTH SOUTH UNIVERSITY '28</h3>
             <ContactButtons/>
-            <button id='Resume-button'>Resume ↗</button>
-            <div className='arrowText'>
+            <button id='Resume-button' className="glass">Resume ↗</button>
+            <div className="arrowText">
                 <p id='arrow1' className='arrows'>V</p>
                 <p id='arrow2' className='arrows'>V</p>
                 <p id='arrow3' className='arrows'>V</p>

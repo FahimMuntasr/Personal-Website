@@ -3,7 +3,7 @@ export default function AboutMe(){
     return(
         <div id='AboutMe-container'>
                 <h2 id='AboutMe-Header'>ABOUT ME</h2>
-            <div id='AboutMe-subcontainer'>
+            <div id='AboutMe-subcontainer' className='glass'>
                 <img src='Headshot.png' id='AboutMe-Image'/>
                 <div id='AboutMe-Facts'>
                     <div className='Fact'>
@@ -15,16 +15,12 @@ export default function AboutMe(){
                         <p>I’m passionate about exploring all areas of technology, with a particular interest in embedded systems, ML/AI, and game development.</p>
                     </div>
                     <div className='Fact'>
-                        <p>🎓</p>
-                        <p>I’m currently studying Computer Science and Engineering, with plans to dive deeper into emerging technologies and apply my knowledge to real-world problems.</p>
-                    </div>
-                    <div className='Fact'>
                         <p>👨🏻‍💻</p>
                         <p>I have experience in a range of programming languages including C, C++, Python, Java, JavaScript, and frameworks like ReactJS.</p>
                     </div>
                     <div className='Fact'>
                         <p>🎮</p>
-                        <p>In addition to coding, I have a background in 3D design using Blender. I’ve been freelancing as a 3D designer since 2019, which has helped me develop a creative edge alongside my technical skills.</p>
+                        <p>In addition to coding, I like sketching people/characters. I also have a background in 3D design. I’ve been freelancing as a 3D designer since 2019, which has helped me develop a creative edge alongside my technical skills. <a href=' ' target='_blank'>Click here to see my portfolio.</a></p>
                     </div>
                 </div>
             </div>

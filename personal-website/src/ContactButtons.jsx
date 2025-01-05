@@ -1,8 +1,8 @@
 import './ContactButtons.css';
 export default function ContactButtons(){
     return(
-        <div className="Contact-Buttons-Container">
-            <a href="https:/www.linkedin.com/in/fahim-muntasir-profile" id="LinkedIn-Button" target="_blank"className="Contact-Buttons-Item">
+        <div className="Contact-Buttons-Container ">
+            <a href="https:/www.linkedin.com/in/fahim-muntasir-profile" id="LinkedIn-Button" target="_blank"className="Contact-Buttons-Item ">
                 <img src="LinkedIn.png" id="LinkedIn-Icon" className="Contact-Buttons-Image"/>
             </a>
             <a href="https://github.com/FahimMuntasr" id="Github-Button" target="_blank" className="Contact-Buttons-Item">
