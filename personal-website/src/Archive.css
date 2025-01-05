@@ -19,6 +19,16 @@
     font-size:2em ;
     margin: 30px;
 }
+.course > a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.course:hover{
+    background-color: hsla(174, 61%, 94%, 0.189);
+    transition: background-color 0.3s ease-in;
+    cursor: pointer;
+}
 #Archive{
     display: flex;
     flex-direction: row;

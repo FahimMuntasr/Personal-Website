@@ -1,6 +1,5 @@
 import './NavBar.css'
 import { useState } from 'react'
-import DarkModeSwitch from './DarkModeSwitch.jsx'
 export default function NavBar(){
     const[menuOpen, setMenuOpen] = useState(false);
     const toggleMenu = () => {
@@ -16,7 +15,6 @@ export default function NavBar(){
                 <a href="#Education-Container"className='navbar-buttons'>EDUCATION</a>
                 <a href="#Projects-container"className='navbar-buttons'>PROJECTS</a>
                 <a href="#Archive-container"className='navbar-buttons'>ARCHIVE</a>
-                <DarkModeSwitch/>
             </div>
         </div>
     )

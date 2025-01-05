@@ -1,5 +1,4 @@
 import './Footer.css'
-import DarkModeSwitch from './DarkModeSwitch' 
 import ContactButtons from './ContactButtons'
 export default function Footer(){
     return(
@@ -13,7 +12,6 @@ export default function Footer(){
                     <a href='#'>
                         <img id='top-image' src='up.png'/>
                     </a>
-                    <DarkModeSwitch/>
                 </div>
             </div>
         </div>
