@@ -8,7 +8,7 @@ export default function AboutMe(){
                 <div id='AboutMe-Facts'>
                     <div className='Fact'>
                         <p>👋🏼</p>
-                        <p>Hi, I’m <span>Fahim</span>, a second-year <span>Computer Science</span> and <span>Engineering</span> student at <span>North South University</span>, graduating in <span>2028</span>.</p>
+                        <p>Hi, I’m <span>Fahim</span>, a second-year <span>Computer Science</span> and <span>Engineering</span> student at <span>North South University</span>, graduating class of <span>2028</span>.</p>
                     </div>
                     <div className='Fact'>
                         <p>🧠</p>

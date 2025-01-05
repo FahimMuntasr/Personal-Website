@@ -78,6 +78,7 @@
         width: 200px;
         transform: translateX(100%);
         visibility: hidden;
+        padding: 20px 0px;
     }
 
     #NavBar-Items-Container.open {

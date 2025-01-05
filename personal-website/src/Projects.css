@@ -1,0 +1,14 @@
+#Projects-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+#Projects-container>h2{
+    font-size: 4em;
+}
+#Projects-container>p{
+    font-size: 4em;
+}

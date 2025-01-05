@@ -1,0 +1,88 @@
+#Education-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    height: 100vh;
+    width: 100vw;
+}
+#Education-Container > h2{
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+.cards{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 30px;
+    margin-top: 10px;
+}
+.cards>h4{
+    font-size: 2em;
+    align-content: center;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+}
+#Awards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 30px;
+    margin-top: 10px;
+    width: 80%;
+}
+#Awards>h4{
+    font-size: 2em;
+    margin: 0px;
+}
+#Awards>ul{
+    font-size: 1.5em;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+}
+#Awards>ul>li{
+    padding-bottom: 14px;
+}
+@media (max-width:600px) {
+    #Education-Container{
+        height: 100vh;
+        width: 100vw;
+        align-items: center;
+        padding-top:100px ;
+    }
+    #Education-Container > h2{
+        font-size:2.7em;
+    }
+    .cards{
+        width: 300px;
+        height: fit-content;
+        padding:10px;
+    }
+    .cards>h4{
+        font-size: 1.2em;
+    }
+    .time>p{
+        font-size: .7em;
+    }
+    #Awards>h4{
+        font-size:1.2em;
+    }
+    #Awards{
+        width: 300px;
+        height: fit-content;
+        padding: 10px;
+    }
+    #Awards>ul{
+
+        font-size:1.2em;
+        padding: 10px;
+    }
+}
