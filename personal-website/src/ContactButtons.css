@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     width: 150px;
-    padding-bottom: 40px;
 }
 .Contact-Buttons-Item{
     background-color: rgba(255, 0, 0, 0);

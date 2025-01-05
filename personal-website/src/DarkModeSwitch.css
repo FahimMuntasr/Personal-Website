@@ -7,7 +7,6 @@
     cursor: pointer;
     height: 60px;
     width: 60px;
-    margin: 0px 70px;
 }
 #NavBar-DarkMode-Button:hover{
     background-color: hsla(215, 45%, 16%, 0.563);
