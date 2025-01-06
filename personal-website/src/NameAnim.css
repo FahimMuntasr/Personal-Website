@@ -1,129 +1,141 @@
-#NameAnim-container{
+#NameAnim-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 00px;
-    height: 100vh;
+    justify-content: center; /* Center content vertically */
+    height: 60vh;
     width: 100vw;
+    padding-top: 0px;
 }
-.container{
+
+.container {
     display: inline-block;
-    max-width: 80%;
+    max-width: 90%; /* Better use of space */
+    text-align: center;
 }
-.text{
-    font-size:5em;
-    letter-spacing: 10px;
+
+.text {
+    font-size: clamp(2em, 5vw, 5em); /* Dynamic font size */
+    letter-spacing: 0.1em;
     font-family: monospace;
     border-right: 5px solid;
-    width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    animation:
-        typing 2s steps(15),
-        cursor .4s step-end infinite alternate;
-} 
+    animation: 
+        typing 2s steps(15), 
+        cursor 0.4s step-end infinite alternate;
+}
+
 @keyframes cursor {
-    50%{
+    50% {
         border-color: transparent;
     }
 }
+
 @keyframes typing {
-    from{
+    from {
         width: 0;
     }
+    to {
+        width: 100%;
+    }
 }
-#NameAnim-degree{
-    font-size: 25px;
-    color: hsla(174, 61%, 94%, 0.46);
+
+#NameAnim-degree {
+    font-size: clamp(1em, 2vw, 1.5em); /* Dynamic scaling */
+    color: hsla(174, 61%, 94%, 0.7); /* Improved contrast */
     font-weight: 500;
+    margin: 10px 0;
 }
-#NameAnim-links{
+
+#NameAnim-links {
     list-style: none;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap; /* Wrap links for smaller screens */
+    justify-content: center;
     padding: 0;
+    gap: 20px; /* Gap between links */
 }
-.NameAnim-link-items{
+
+.NameAnim-link-items {
     display: flex;
-    justify-content: space-between;
-    margin: 10px;
+    justify-content: center;
 }
-#Resume-button{
-    background-color: rgba(91, 91, 212, 0);
-    border-color: #e6f9f7;
+
+#Resume-button {
+    background-color: transparent;
+    border: solid 2px #e6f9f7;
     color: #e6f9f7;
-    border: solid;
     font-family: monospace;
-    font-size: 32px;
+    font-size: clamp(1em, 2vw, 2em); /* Adaptive size */
     border-radius: 32px;
+    display: flex;
+    justify-content: center;
     align-items: center;
     height: 64px;
     width: 256px;
-    padding-bottom: 10px;
-    margin: 40px 0px;
-}
-#Resume-button:hover{
-    background-color: hsla(174, 61%, 94%, 0.189);
+    margin: 20px 0;
     transition: background-color 0.3s ease-in;
+}
+
+#Resume-button:hover {
+    background-color: hsla(174, 61%, 94%, 0.2);
     cursor: pointer;
 }
-.arrows{
-    margin: 0px;
-    padding: 0px
-}
-.arrowText{
-    margin: 0;
-    animation: blink 1.5s infinite;
+
+.arrowText {
     font-family: monospace;
-    font-size: 50px;
+    font-size: clamp(1.5em, 4vw, 2.5em);
     font-weight: 100;
     color: #e6f9f7;
-    margin: 0px;
-    padding: 0;
+    animation: blink 1.5s infinite;
+    margin: 10px 0;
 }
-.arrowText:hover{
+
+.arrowText:hover {
     cursor: default;
 }
+
 @keyframes blink {
-    0%, 100%{
+    0%, 100% {
         opacity: 1;
-    }50%{
+    }
+    50% {
         opacity: 0;
     }
 }
+
 @media (max-width: 600px) {
-    .text{
-        font-size: 2.7em;
-        letter-spacing: 4px;
-        width: 80vw;
+    .text {
+        font-size: 2em;
+        letter-spacing: 0.1em;
     }
-    #Resume-button{
-        width: 200px;
-        font-size: 25px;
+    #Resume-button {
+        width: 180px;
         height: 50px;
+        font-size: 1em;
     }
-    #NameAnim-degree{
-        font-size: 19px;
-        width: 80vw;
+    #NameAnim-degree {
+        font-size: 0.9em;
     }
-    .arrowText{
-        font-size: 30px;
+    .arrowText {
+        font-size: 1.5em;
     }
 }
-@media (min-width: 600px) and (max-width:800px){
-    .text{
+
+@media (min-width: 601px) and (max-width: 800px) {
+    .text {
         font-size: 4em;
-        letter-spacing: 4px;
     }
-    #Resume-button{
-        width: 230px;
-        font-size: 25px;
+    #Resume-button {
+        width: 220px;
         height: 55px;
+        font-size: 1.2em;
     }
-    #NameAnim-degree{
-        font-size:22px;
+    #NameAnim-degree {
+        font-size: 1.1em;
     }
-    .arrowText{
-        font-size:40px;
+    .arrowText {
+        font-size: 2em;
     }
 }
