@@ -1,0 +1,44 @@
+#Archive-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+#Archive-container>h2{
+    font-size: 4em;
+}
+.course{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    align-items: center;
+    font-size:2em ;
+    margin: 30px;
+}
+.course > a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.course:hover{
+    background-color: hsla(174, 61%, 94%, 0.189);
+    transition: background-color 0.3s ease-in;
+    cursor: pointer;
+}
+#Archive{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width:600px) {
+    #Archive{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}
