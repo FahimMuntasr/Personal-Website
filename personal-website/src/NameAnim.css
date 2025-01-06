@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: center;
+    justify-items: center;
     justify-content: center; /* Center content vertically */
     height: 60vh;
     width: 100vw;
@@ -42,7 +44,7 @@
 }
 
 #NameAnim-degree {
-    font-size: clamp(1em, 2vw, 1.5em); /* Dynamic scaling */
+    font-size: clamp(1em, 2vw, 1.5em);
     color: hsla(174, 61%, 94%, 0.7); /* Improved contrast */
     font-weight: 500;
     margin: 10px 0;
@@ -106,6 +108,14 @@
 }
 
 @media (max-width: 600px) {
+    #NameAnim-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: center; /* Center content vertically */
+    }
     .text {
         font-size: 2em;
         letter-spacing: 0.1em;
