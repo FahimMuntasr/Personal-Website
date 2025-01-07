@@ -1,5 +1,5 @@
 import {createRoot} from "react-dom/client"
-import "./main.css"
+import "./Main.css"
 
 import NavBar from "./NavBar"
 
