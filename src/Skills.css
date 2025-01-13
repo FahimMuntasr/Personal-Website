@@ -9,6 +9,8 @@
 #Skill-container > h2 {
     font-size: 4em;
 }
+#Skills{
+}
 #container{
     width:720px;
     display: flex;
@@ -56,7 +58,7 @@
         height: 100vh;
         width: 100vw;
         align-items: center;
-        padding-top: 0px;
+        padding-top: 200px;
     }
     #Skill-container>h2{
         font-size: 2.7em;

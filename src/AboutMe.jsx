@@ -20,7 +20,7 @@ export default function AboutMe(){
                     </div>
                     <div className='Fact'>
                         <p>🎮</p>
-                        <p>In addition to coding, I like sketching people/characters. I also have a background in 3D design. I’ve been freelancing as a 3D designer since 2019, which has helped me develop a creative edge alongside my technical skills. <a href=' ' target='_blank'>Click here to see my portfolio.</a></p>
+                        <p>In addition to coding, I like sketching people/characters. I also have a background in 3D design. I’ve been freelancing as a 3D designer since 2019, which has helped me develop a creative edge alongside my technical skills.</p>
                     </div>
                 </div>
             </div>

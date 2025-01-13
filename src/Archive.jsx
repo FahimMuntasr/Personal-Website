@@ -14,7 +14,7 @@ export default function Archive(){
                     <a href="https://drive.google.com/file/d/19SHrpt3rfzU_nrUgGsPzE_X83G5rFCv5/view?usp=drive_link" target="_blank" className="course-title">MAT125</a>
                 </div>
                 <div className="course glass">
-                    <a href="https://drive.google.com/file/d/1bWTJKizKh8BrvQGR_YOkbvjR6izJVPjL/view?usp=drive_link" target="_blank" className="course-title">MAT130</a>
+                    <a href="https://drive.google.com/file/d/1i_jNJSjeunDs7wqTcW8n-8Kw8VPxeKKr/view?usp=drive_link" target="_blank" className="course-title">MAT130</a>
                 </div>
             </div>
         </div>
