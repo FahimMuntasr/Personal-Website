@@ -30,15 +30,18 @@
     cursor: pointer;
 }
 #Archive{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+    grid-template-rows: auto; /* Automatically adjusts rows to fit content */
+    gap: 16px; /* Space between grid items */
+    padding: 16px; /* Padding around the grid */
 }
 @media (max-width:600px) {
     #Archive{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Four equal columns */
+        grid-template-rows: auto;
+        gap: 16px; /* Space between grid items */
+        padding: 16px;
     }
 }
