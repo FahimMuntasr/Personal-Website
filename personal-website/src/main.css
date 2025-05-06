@@ -1,21 +1,20 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-body{
-    /*Dark Mode*/
-    color: #e6f9f7;
-    /*Light Mode*/
-    /* background:linear-gradient(to top,hsl(168, 23%, 61%),hsl(174, 61%, 94%)); */
-    padding: 0px;
-    margin:0px;
-    background: 
-        url('/bg.png') repeat,
-        linear-gradient(to top,hsl(170, 28%, 37%),hsl(218, 27%, 26%));
-    background-size: 50px;  
-    font-family: monospace;
+body {
+  /*Dark Mode*/
+  color: #e6f9f7;
+  /*Light Mode*/
+  /* background:linear-gradient(to top,hsl(168, 23%, 61%),hsl(174, 61%, 94%)); */
+  padding: 0px;
+  margin: 0px;
+  background: url("/bg.png") repeat,
+    linear-gradient(to top, hsl(170, 28%, 37%), hsl(218, 27%, 26%));
+  background-size: 50px;
+  font-family: monospace;
 }
-#content{
-    margin-top: 280px;
+#content {
+  margin-top: 280px;
 }
 /* .glass{
     background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
@@ -25,9 +24,13 @@ body{
     border: 1px solid rgba(255,255,255,0.18);
     box-shadow: 0 8px 32px rgba(0,0,0, 0.37);
 } */
-.glass{
-    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
-    border-radius: 20px;
-    border: 1px solid rgba(255,255,255,0.18);
-    box-shadow: 0 8px 32px rgba(0,0,0, 0.37);
+.glass {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
 }
